@@ -10,9 +10,13 @@
 #   puts "*" * n
 # end
 
-1.upto(5) { |n| puts "*" * n }
+# 1.upto(5) { |n| puts "*" * n }
 
 # 6.times { |n| puts "*" * n }
+
+for n in 1..5 do
+  puts "*" * n 
+end
 
 
 
